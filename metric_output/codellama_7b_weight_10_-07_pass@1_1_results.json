@@ -1,0 +1,53 @@
+{
+  "humaneval": {
+    "pass@1": 0.27439024390243905
+  },
+  "config": {
+    "prefix": "",
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_k": 0,
+    "top_p": 0.95,
+    "n_samples": 1,
+    "eos": "<|endoftext|>",
+    "seed": 0,
+    "mean_num": 0.005,
+    "filter_num": 0.666667,
+    "num_beams": 1,
+    "src_weights": [
+      1.0,
+      -0.7
+    ],
+    "model": "/mnt/data/huggingface/models/codellama/CodeLlama-7b-hf",
+    "modeltype": "causal",
+    "peft_model": null,
+    "revision": null,
+    "use_auth_token": true,
+    "use_constrast_decode": true,
+    "use_prompt_neg": 0,
+    "trust_remote_code": false,
+    "tasks": "humaneval",
+    "instruction_tokens": null,
+    "batch_size": 1,
+    "max_length_generation": 800,
+    "max_new_tokens": 1024,
+    "precision": "fp32",
+    "load_in_8bit": false,
+    "load_in_4bit": false,
+    "limit": null,
+    "limit_start": 0,
+    "postprocess": true,
+    "allow_code_execution": true,
+    "generation_only": false,
+    "load_generations_path": null,
+    "uncertain": "fuzzy",
+    "load_data_path": null,
+    "metric_output_path": "/mnt/data/users/wangshuai/bigcode_contrast_decode/result_20231220/codellama_7b_weight_10_-03_pass@100_100_results.json",
+    "save_generations": false,
+    "save_generations_path": "/mnt/data/users/wangshuai/bigcode_contrast_decode/result_output/codellama_7b_weight_10_-03_pass@100_100_generations.json",
+    "save_references": false,
+    "prompt": "prompt",
+    "max_memory_per_gpu": null,
+    "check_references": false
+  }
+}
