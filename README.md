@@ -44,7 +44,7 @@ We provide the following data used in our experimentsm
 We provide the following model used in our experimentsm
 
 - Models:
-    - [Llama2-7b](https://huggingface.co/meta-llama/Llama-2-7b): The Llama2-7b model, released by the Meta research team in July 2023, is pre-trained with a parameter architecture of 70 billion.
+    - [Llama2-7b](https://huggingface.co/meta-llama/Llama-2-7b): The Llama2-7b model, released by the Meta research team in July 2023, is pre-trained with a parameter architecture of 70 billion.
     - [CodeLlama-7b](https://huggingface.co/codellama/CodeLlama-7b-hf): The CodeLlama-7b model is fine-tuned based on the Llama model, primarily designed for tasks, e.g., code generation and code understanding.
     - [StarCoder](https://huggingface.co/bigcode/starcoder): The StarCoder model is a 15.5 billion parameter model trained using over 80 programming languages from Stack (v1.2).
     - [WizardCoder](https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0): The WizardCoder is fine-tuned by applying the Evol-Instruct to Code LLMs.
