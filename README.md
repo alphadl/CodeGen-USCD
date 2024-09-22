@@ -24,7 +24,8 @@ pip install fsspec<2023.10.0
 The main framework of our code is based on [bigcode](https://github.com/bigcode-project/bigcode-evaluation-harness). Following example shows you how to perform USCD on code generation dataset.
 
 ```bash
-bash 
+cd ./CodeGen-USCD/model_slurm
+bash codellama_7b_weight_10_-07_pass@1_1.sh
 ```
 
 For detailed usage instructions, please refer to the [bigcode documentation](https://github.com/bigcode-project/bigcode-evaluation-harness?tab=readme-ov-file#documentation).
