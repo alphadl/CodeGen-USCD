@@ -41,7 +41,7 @@ We provide the following data used in our experimentsm
 
 ### Model
 
-We provide the following model used in our experimentsm
+We provide the following models used in our experimentsm
 
 - Models:
     - [Llama2-7b](https://huggingface.co/meta-llama/Llama-2-7b): The Llama2-7b model, released by the Meta research team in July 2023, is pre-trained with a parameter architecture of 70 billion.
