@@ -58,6 +58,6 @@ Please cite the paper and star this repo if you use USCD and find it helpful. Fe
   author = {Shuai Wang, Liang Ding, Li Shen, Yong Luo, Zheng He, Wei Yu, Dacheng Tao},
   title = {USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding},
   journal = {arXiv preprint arXiv:2409.05923},
-  year = 2024,
+  year = {2024},
 }
 ```
