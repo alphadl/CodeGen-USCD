@@ -21,7 +21,7 @@ pip install fsspec<2023.10.0
 
 ### Code
 
-The main framework of our code is based on [bigcode](https://github.com/bigcode-project/bigcode-evaluation-harness). Following example shows you how to perform USCD on code generation dataset.
+The main framework of our code is based on [bigcode](https://github.com/bigcode-project/bigcode-evaluation-harness). The following example shows you how to perform USCD on a code generation dataset.
 
 ```bash
 cd ./CodeGen-USCD/model_slurm
@@ -32,7 +32,7 @@ For detailed usage instructions, please refer to the [bigcode documentation](htt
 
 ### Data
 
-We provide the following data used in our experimentsm
+We provide the following data used in our experiments:
 
 - Evaluation benchmarks:
     - [HumanEval](https://huggingface.co/datasets/openai/openai_humaneval): The HumanEval benchmark consists of 164 handwritten Python programming problems and primarily focuses on language comprehension, algorithms, and basic mathematics. Additionally, the HumanEval benchmark mainly evaluates the function completion capability of LLMs.
@@ -41,7 +41,7 @@ We provide the following data used in our experimentsm
 
 ### Model
 
-We provide the following models used in our experimentsm
+We provide the following models used in our experiments:
 
 - Models:
     - [Llama2-7b](https://huggingface.co/meta-llama/Llama-2-7b): The Llama2-7b model, released by the Meta research team in July 2023, is pre-trained with a parameter architecture of 70 billion.
@@ -54,7 +54,7 @@ We provide the following models used in our experimentsm
 
 Please cite the paper and star this repo if you use USCD and find it helpful. Feel free to contact wangshuai123@whu.edu.cn or open an issue if you have any questions.
 ```
-@misc{wang2024mathbb,
+@article{wang2024mathbb,
   author = {Shuai Wang, Liang Ding, Li Shen, Yong Luo, Zheng He, Wei Yu, Dacheng Tao},
   title = {USCD: Improving Code Generation of LLMs by Uncertainty-Aware Selective Contrastive Decoding},
   journal = {arXiv preprint arXiv:2409.05923},
